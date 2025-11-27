@@ -1,0 +1,44 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- logo:
+    icon: https://www.surgital.it/wp-content/uploads/2022/06/surgital.svg
+    style: "height: 150px; width: auto; display: block; margin: 0 auto;"
+
+- greeting:
+    text_size: 3xl
+    text: Surgital Homepage
+
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+# 1/23/22, 1:37 PM
+- datetime:
+    text_size: xl
+    format:
+        dateStyle: short
+        timeStyle: short
+        hour12: false
+
+- search:
+    provider: google
+    target: _blank
+    quicklaunch: true
+    searchDescriptions: true
+    hideInternetSearch: true
+    showSearchSuggestions: true
+    hideVisitURL: true
+
+
+
+- openmeteo:
+    label: Current
+    latitude: 44.56099
+    longitude: 11.87557
+    units: metric
+    cache: 5
+

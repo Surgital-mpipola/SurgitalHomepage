@@ -1,0 +1,295 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- Switch:
+#------------------------------------------------------------ARMADIO A------------------------------------------------------------------------#
+    - A01-1 A01 DISTRIBUTION:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.51/html/login.html
+        ping: 172.26.113.51
+
+    - AA01-1 CENTRO STELLA CED:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.61/html/login.html
+        ping: 172.26.113.61
+        
+    - AA-IOT-48G:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.119/html/login.html
+        ping: 172.26.113.119
+#------------------------------------------------------------ARMADIO B------------------------------------------------------------------------#
+    - B2-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.118/html/login.html
+        ping: 172.26.113.118
+   
+    - B01-1 EMERGENZA:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.80/html/login.html
+        ping: 172.26.113.80
+   
+    - B01-2 POE:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.130/html/login.html
+        ping: 172.26.113.130
+
+    - B01-3:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.97/html/login.html
+        ping: 172.26.113.97
+#------------------------------------------------------------ARMADIO C------------------------------------------------------------------------#
+    - C01-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.85/html/login.html
+        ping: 172.26.113.85
+
+    - C02-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.59/html/login.html
+        ping: 172.26.113.59
+
+    - C01-3:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.67/html/login.html
+        ping: 172.26.113.67
+
+    - C01-4 :
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.54/html/login.html
+        ping: 172.26.113.54
+#------------------------------------------------------------ARMADIO D------------------------------------------------------------------------#
+    - D01-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.62/html/login.html
+        ping: 172.26.113.62
+
+    - D01-2E:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.72/html/login.html
+        ping: 172.26.113.72   
+#------------------------------------------------------------ARMADIO E------------------------------------------------------------------------#
+    - E01-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.53/html/login.html
+        ping: 172.26.113.53
+
+    - E01-2 :
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.53/html/login.html
+        ping: 172.26.113.79
+
+    - E01-3 :
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.75/html/login.html
+        ping: 172.26.113.75
+#------------------------------------------------------------ARMADIO F------------------------------------------------------------------------#
+    - F02-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.87/html/login.html
+        ping: 172.26.113.87
+#------------------------------------------------------------ARMADIO G------------------------------------------------------------------------#
+    - G01-1 :
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.57/html/login.html
+        ping: 172.26.113.57
+        
+    - G01-2:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.55/html/login.html
+        ping: 172.26.113.55
+#------------------------------------------------------------ARMADIO H------------------------------------------------------------------------#
+    - H01-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.84/html/login.html
+        ping: 172.26.113.84
+
+    - H02-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.86/html/login.html
+        ping: 172.26.113.86
+#------------------------------------------------------------ARMADIO I------------------------------------------------------------------------#
+    - I01-1 :
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.129/html/login.html
+        ping: 172.26.113.129
+    
+    - I03-PoE-OFFICINA:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.77/html/login.html
+        ping: 172.26.113.77
+#------------------------------------------------------------ARMADIO K------------------------------------------------------------------------#
+    - K01-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.64/html/login.html
+        ping: 172.26.113.64
+
+    - K02-1 :
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.68/html/login.html
+        ping: 172.26.113.68
+
+    -  K03-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.70/html/login.html
+        ping: 172.26.113.70
+#------------------------------------------------------------ARMADIO L------------------------------------------------------------------------#
+    - L01-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.66/html/login.html
+        ping: 172.26.113.66
+    
+    - L2 UFFICI CELLA :
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.114/html/login.html
+        ping: 172.26.113.114
+#------------------------------------------------------------ARMADIO M------------------------------------------------------------------------#
+    - M01-1 :
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.73/html/login.html
+        ping: 172.26.113.73
+ 
+    - M02-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.63/html/login.html
+        ping: 172.26.113.63
+#------------------------------------------------------------ARMADIO N------------------------------------------------------------------------#
+    - N01-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.78html/login.html
+        ping: 172.26.113.78
+
+    - N02-1:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.58/html/login.html
+        ping: 172.26.113.58
+#------------------------------------------------------------ARMADIO O------------------------------------------------------------------------# 
+    - O-02 :
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.60/html/login.html
+        ping: 172.26.113.60
+#------------------------------------------------------------ARMADIO Q------------------------------------------------------------------------# 
+    - Q1-POE:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.124/html/login.html
+        ping: 172.26.113.124
+
+    - Q1 SWITCH Aruba 2930:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.117/html/login.html
+        ping: 172.26.113.117
+
+    - Q2 Switch Aruba 2930F-48G:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.116/html/login.html
+        ping: 172.26.113.116
+
+    - Q2-2 POE:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.126/html/login.html
+        ping: 172.26.113.126
+
+    - Q2-3:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.65/html/login.html
+        ping: 172.26.113.65
+
+    - Q5:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.127/html/login.html
+        ping: 172.26.113.127
+
+    - Q5-POE:
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.125/html/login.html
+        ping: 172.26.113.125
+#------------------------------------------------------------ARMADIO R------------------------------------------------------------------------# 
+    - R01-1 :
+        icon: https://awifisolutions.com.au/wp-content/uploads/2022/04/Aruba-Icon.png
+        href: http://172.26.113.83/html/login.html
+        ping: 172.26.113.83
+    
+    
+
+- Console :
+
+    - Monday:
+        href: https://team-surgital.monday.com/boards/1406160291
+        icon: https://www.svgrepo.com/show/354088/monday-icon.svg
+        ping: 104.16.51.19
+        widget:
+            type: iframe
+            src: "https://view.monday.com/embed/1406160291-be50bf438397559a884cd7855ff90c56?r=euc1"
+            width: 1500   # più largo
+            height: 900   # più alto
+            border: false
+            style: "box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"
+            collapsed: true   # se vuoi che sia chiuso all'avvio
+
+
+    - Inventario IT:
+        href: https://172.26.201.47:8443
+        icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFL12ZRcZc3XeoUnydHYzs309pGOezDYBSGA&s
+        ping: 172.26.201.47
+
+    - IMC Console: 
+        href: https://srvnetmon:8443/imc/dndfront/dnd.jsf
+        icon: https://media.licdn.com/dms/image/v2/D4E12AQFbovJRsBuEwQ/article-inline_image-shrink_1500_2232/B4EZdq53GcHsAc-/0/1749845244169?e=2147483647&v=beta&t=qONga7UHkiB-Oqt-qV-Ni7tsy6WozEWq34rlRudeorw
+        ping: srvnetmon
+
+    - Watchguard Cloud: 
+        href: https://deu.cloud.watchguard.com/dashboard
+        icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf7Lq88V0JPBkEDRLdRo-gCakjl--XPXRmgw&s
+    - Unifi Console:
+        href: https://unifi.surgital.local:8443/
+        icon: https://unifi.surgital.local:8443/manage/angular/g4d72f483d/images/unifi.svg
+        ping: unifi.surgital.local
+        widget:
+            #type: unifi
+            #url: https://unifi.surgital.local:8443/
+
+    - Rubrica:
+        href: http://srvservice/Rubrica/Rubrica.pdf
+        icon: https://www.citypng.com/public/uploads/preview/hd-white-round-circle-phone-icon-png-7017516950597915jjeceetgt.png?v=2025073118
+
+    - IP Address:
+        href: https://surgitalspa-my.sharepoint.com/:x:/r/personal/a_spadoni_surgital_it/_layouts/15/Doc.aspx?sourcedoc=%7B314161FE-510D-4636-A493-EFCCE12A53F6%7D&file=IPaddress.xlsx&fromShare=true&action=default&mobileredirect=true
+        icon: https://static.vecteezy.com/system/resources/previews/027/179/360/non_2x/microsoft-excel-icon-logo-symbol-free-png.png
+
+- Utility Web:
+
+
+    - Google Calendar:
+        icon: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Calendar_icon_%282020%29.svg/512px-Google_Calendar_icon_%282020%29.svg.png?20221106121915
+        href: https://calendar.google.com/
+        siteMonitor: https://calendar.google.com/calendar/u/0/r
+        widget:
+            type: calendar
+            # formato ICS pubblico o privato del tuo calendario
+            url: https://calendar.google.com/calendar/ical/m.pipola%40surgital.it/public/basic.ics
+            show: 10
+            past: true
+            time: true
+            verify_ssl: false
+            
+    - ChatGPT:
+        href: https://chatgpt.com/
+        icon: https://static.vecteezy.com/system/resources/previews/021/608/790/non_2x/chatgpt-logo-chat-gpt-icon-on-black-background-free-vector.jpg
+        siteMonitor: https://chatgpt.com/
+    
+    - Perplexity:
+        href: https://www.perplexity.ai/
+        icon: https://play-lh.googleusercontent.com/6STp0lYx2ctvQ-JZpXA1LeAAZIlq6qN9gpy7swLPlRhmp-hfvZePcBxqwVkqN2BH1g
+        siteMonitor: https://www.perplexity.ai/
+    
+    - Virus Total: 
+        href: https://www.virustotal.com/gui/home/url
+        icon: https://images.icon-icons.com/2699/PNG/512/virustotal_logo_icon_171247.png
+        siteMonitor: https://www.virustotal.com/gui/home/url
+    
+    - Chat Google: 
+        icon: https://www.pngmart.com/files/23/Chat-Icon-PNG-Pic.png
+        href: https://mail.google.com/mail/u/0/#chat/home
+        siteMonitor: https://mail.google.com/mail/u/0/#chat/home
+
+

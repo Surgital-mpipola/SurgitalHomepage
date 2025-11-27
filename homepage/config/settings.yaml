@@ -1,0 +1,29 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+
+title: Surgital Networking Homepage
+logo: https://www.surgital.it/wp-content/uploads/2022/06/surgital.svg
+#favicon: https://www.surgital.it/wp-content/uploads/2022/06/surgital.svg
+background: https://www.surgital.it/wp-content/uploads/2022/08/surgital_header_cosafacciamo.jpg
+backgroundOpacity: 0.6
+cardBlur: md # or sm, lg
+headerStyle: underlined # or boxed, boxedWidgets, clean
+color: slate
+language: it
+#theme: dark # or light
+statusStyle: "dot"
+
+
+
+
+
+layout:
+  Switch:
+    style: row
+    columns: 5
